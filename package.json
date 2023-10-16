@@ -1,0 +1,20 @@
+{
+  "name": "chat-nodejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./server/index.js"
+  },
+  "keywords": [],
+  "author": "Rogger Ortiz <rogger.ortiz.br@gmail.com> (https://github.com/roggerortiz)",
+  "license": "ISC",
+  "dependencies": {
+    "@libsql/client": "0.3.5",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "morgan": "1.10.0",
+    "socket.io": "4.7.2"
+  }
+}
